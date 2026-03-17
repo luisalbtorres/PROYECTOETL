@@ -1,0 +1,513 @@
+================================================================================
+Archivo analizado: 42.-cancer-de-mama-datos-abiertos-p13-2022.csv
+Ruta completa: data\raw\42.-cancer-de-mama-datos-abiertos-p13-2022.csv
+Dimensiones: Filas=946, Columnas=17
+
+Columnas y tipos de datos:
+codigo_sspm          int64
+fec_not                str
+cod_divipola         int64
+ciudad                 str
+dpto                   str
+edad_                int64
+sexo_                  str
+tip_ss_                str
+per_etn_               str
+fec_con_               str
+ini_sin_               str
+fec_pro_co             str
+fec_res_bi             str
+res_biops9             str
+grad_histo             str
+fecha_corte            str
+fecha_reporte_web      str
+dtype: object
+
+Datos faltantes por columna:
+tip_ss_       1
+res_biops9    8
+grad_histo    1
+dtype: int64
+Total de valores faltantes: 10
+
+Cantidad de filas duplicadas: 0
+
+Primeros 5 registros:
+   codigo_sspm   fec_not  cod_divipola ciudad   dpto  edad_  ... fec_pro_co fec_res_bi        res_biops9   grad_histo fecha_corte fecha_reporte_web
+0            1  4-ene-22         76002   Cali  Valle     77  ...  21-oct-21  21-oct-21  carcinoma ductal  infiltrante   27-mar-23         15-abr-23
+1            2  4-ene-22         76003   Cali  Valle     60  ...  21-dic-21  21-dic-21  carcinoma ductal  infiltrante   27-mar-23         15-abr-23
+2            3  4-ene-22         76004   Cali  Valle     36  ...  21-oct-21  21-oct-21  carcinoma ductal      in-situ   27-mar-23         15-abr-23
+3            4  4-ene-22         76005   Cali  Valle     36  ...   8-nov-21   8-nov-21  carcinoma ductal  infiltrante   27-mar-23         15-abr-23
+4            5  4-ene-22         76006   Cali  Valle     62  ...   7-oct-21   7-oct-21  carcinoma ductal      in-situ   27-mar-23         15-abr-23
+
+[5 rows x 17 columns]
+
+Últimos 5 registros:
+     codigo_sspm    fec_not  cod_divipola ciudad   dpto  ...  fec_res_bi            res_biops9   grad_histo fecha_corte fecha_reporte_web
+941          942  30-dic-22         76932   Cali  Valle  ...   28-dic-22  carcinoma lobulillar  no indicado   27-mar-23         15-abr-23
+942          943  30-dic-22         76946   Cali  Valle  ...   26-dic-22  carcinoma lobulillar      in-situ   27-mar-23         15-abr-23
+943          944  31-dic-22         76935   Cali  Valle  ...   23-nov-22  carcinoma lobulillar  no indicado   27-mar-23         15-abr-23
+944          945  31-dic-22         76944   Cali  Valle  ...   23-nov-22  carcinoma lobulillar  no indicado   27-mar-23         15-abr-23
+945          946  31-dic-22         76945   Cali  Valle  ...   12-sep-22      carcinoma ductal  no indicado   27-mar-23         15-abr-23
+
+[5 rows x 17 columns]
+
+Resumen estadístico de columnas numéricas y categóricas:
+        codigo_sspm   fec_not  cod_divipola ciudad   dpto  ...  fec_res_bi        res_biops9   grad_histo fecha_corte fecha_reporte_web
+count    946.000000       946    946.000000    946    946  ...         946               938          945         946               946
+unique          NaN       256           NaN      1      1  ...         331                 2            3           1                 1
+top             NaN  1-nov-22           NaN   Cali  Valle  ...    5-ago-22  carcinoma ductal  infiltrante   27-mar-23         15-abr-23
+freq            NaN        32           NaN    946    946  ...          11               875          622         946               946
+mean     473.500000       NaN  76473.500000    NaN    NaN  ...         NaN               NaN          NaN         NaN               NaN
+std      273.230977       NaN    273.230977    NaN    NaN  ...         NaN               NaN          NaN         NaN               NaN
+min        1.000000       NaN  76001.000000    NaN    NaN  ...         NaN               NaN          NaN         NaN               NaN
+25%      237.250000       NaN  76237.250000    NaN    NaN  ...         NaN               NaN          NaN         NaN               NaN
+50%      473.500000       NaN  76473.500000    NaN    NaN  ...         NaN               NaN          NaN         NaN               NaN
+75%      709.750000       NaN  76709.750000    NaN    NaN  ...         NaN               NaN          NaN         NaN               NaN
+max      946.000000       NaN  76946.000000    NaN    NaN  ...         NaN               NaN          NaN         NaN               NaN
+
+[11 rows x 17 columns]
+
+Alertas de calidad:
+
+
+
+================================================================================
+Archivo analizado: 42.-cancer-de-mama-datos-abiertos-piii-2023 (3).csv
+Ruta completa: data\raw\42.-cancer-de-mama-datos-abiertos-piii-2023 (3).csv
+Dimensiones: Filas=237, Columnas=17
+
+Columnas y tipos de datos:
+codigo_sspm          int64
+fec_not                str
+cod_divipola         int64
+ciudad                 str
+dpto                   str
+edad_                int64
+sexo_                  str
+tip_ss_                str
+per_etn_               str
+fec_con_               str
+ini_sin_               str
+fec_pro_co             str
+fec_res_bi             str
+res_biops9             str
+grad_histo             str
+fecha_corte            str
+fecha_reporte_web      str
+dtype: object
+
+Datos faltantes por columna:
+per_etn_      2
+res_biops9    3
+dtype: int64
+Total de valores faltantes: 5
+
+Cantidad de filas duplicadas: 0
+
+Primeros 5 registros:
+   codigo_sspm   fec_not  cod_divipola ciudad   dpto  edad_  ... fec_pro_co fec_res_bi        res_biops9   grad_histo fecha_corte fecha_reporte_web
+0            1  3-ene-23         76948   Cali  Valle     68  ...  22-nov-22  22-nov-22  carcinoma ductal  infiltrante   27-mar-23         15-abr-23
+1            2  4-ene-23         76951   Cali  Valle     61  ...  28-nov-22   2-dic-22  carcinoma ductal  no indicado   27-mar-23         15-abr-23
+2            3  5-ene-23         76947   Cali  Valle     75  ...  13-nov-22  23-nov-22  carcinoma ductal  infiltrante   27-mar-23         15-abr-23
+3            4  5-ene-23         76949   Cali  Valle     63  ...  28-nov-22   6-dic-22  carcinoma ductal  infiltrante   27-mar-23         15-abr-23
+4            5  6-ene-23         76950   Cali  Valle     47  ...  31-dic-22   5-ene-23  carcinoma ductal      in-situ   27-mar-23         15-abr-23
+
+[5 rows x 17 columns]
+
+Últimos 5 registros:
+     codigo_sspm    fec_not  cod_divipola ciudad   dpto  edad_  ... fec_pro_co fec_res_bi        res_biops9   grad_histo fecha_corte fecha_reporte_web
+232          233  30-mar-23         77176   Cali  Valle     83  ...  21-mar-23  28-mar-23  carcinoma ductal      in-situ   27-mar-23         15-abr-23
+233          234  30-mar-23         77179   Cali  Valle     67  ...  17-mar-23  27-mar-23  carcinoma ductal      in-situ   27-mar-23         15-abr-23
+234          235  31-mar-23         77169   Cali  Valle     62  ...  27-feb-23  31-mar-23  carcinoma ductal      in-situ   27-mar-23         15-abr-23
+235          236  31-mar-23         77181   Cali  Valle     80  ...  24-mar-23  31-mar-23  carcinoma ductal  infiltrante   27-mar-23         15-abr-23
+236          237  31-mar-23         77183   Cali  Valle     67  ...  23-mar-23  30-mar-23  carcinoma ductal  infiltrante   27-mar-23         15-abr-23
+
+[5 rows x 17 columns]
+
+Resumen estadístico de columnas numéricas y categóricas:
+        codigo_sspm    fec_not  cod_divipola ciudad   dpto  ...  fec_res_bi        res_biops9   grad_histo fecha_corte fecha_reporte_web
+count    237.000000        237    237.000000    237    237  ...         237               234          237         237               237
+unique          NaN         62           NaN      1      1  ...         103                 2            3           1                 1
+top             NaN  23-ene-23           NaN   Cali  Valle  ...   30-dic-22  carcinoma ductal  infiltrante   27-mar-23         15-abr-23
+freq            NaN         15           NaN    237    237  ...           6               220          154         237               237
+mean     119.000000        NaN  77065.000000    NaN    NaN  ...         NaN               NaN          NaN         NaN               NaN
+std       68.560193        NaN     68.560193    NaN    NaN  ...         NaN               NaN          NaN         NaN               NaN
+min        1.000000        NaN  76947.000000    NaN    NaN  ...         NaN               NaN          NaN         NaN               NaN
+25%       60.000000        NaN  77006.000000    NaN    NaN  ...         NaN               NaN          NaN         NaN               NaN
+50%      119.000000        NaN  77065.000000    NaN    NaN  ...         NaN               NaN          NaN         NaN               NaN
+75%      178.000000        NaN  77124.000000    NaN    NaN  ...         NaN               NaN          NaN         NaN               NaN
+max      237.000000        NaN  77183.000000    NaN    NaN  ...         NaN               NaN          NaN         NaN               NaN
+
+[11 rows x 17 columns]
+
+Alertas de calidad:
+
+
+
+================================================================================
+Archivo analizado: b.datos-cancer-mama-semana-52-ano-2021.csv
+Ruta completa: data\raw\b.datos-cancer-mama-semana-52-ano-2021.csv
+Dimensiones: Filas=722, Columnas=18
+
+Columnas y tipos de datos:
+codigo_sspm           int64
+fecha_notificacion      str
+cod_divipola          int64
+ciudad                  str
+dpto                    str
+edad                  int64
+sexo                    str
+tipo_regimen            str
+etnia                   str
+fecha_con               str
+ini_sin                 str
+fecha_nto_              str
+fecha_pro_co            str
+fecha_res_bi            str
+res_biops9              str
+grad_histo              str
+fecha_corte             str
+fecha_reporte_web       str
+dtype: object
+
+Datos faltantes por columna:
+Series([], dtype: int64)
+Total de valores faltantes: 0
+
+Cantidad de filas duplicadas: 0
+
+Primeros 5 registros:
+   codigo_sspm fecha_notificacion  cod_divipola ciudad   dpto  ...  fecha_res_bi        res_biops9   grad_histo fecha_corte fecha_reporte_web
+0            1           7-ago-21         76001   cali  valle  ...     24-may-21  carcinoma ductal  infiltrante    8-abr-22          8-abr-22
+1            2          13-nov-21         76001   cali  valle  ...     14-ene-21  carcinoma ductal  infiltrante    8-abr-22          8-abr-22
+2            3           4-jun-21         76001   cali  valle  ...     19-mar-21  carcinoma ductal  infiltrante    8-abr-22          8-abr-22
+3            4          29-jun-21         76001   cali  valle  ...     24-jun-21  carcinoma ductal  infiltrante    8-abr-22          8-abr-22
+4            5          24-mar-21         76001   cali  valle  ...     15-mar-21  carcinoma ductal  infiltrante    8-abr-22          8-abr-22
+
+[5 rows x 18 columns]
+
+Últimos 5 registros:
+     codigo_sspm fecha_notificacion  cod_divipola ciudad   dpto  ...  fecha_res_bi        res_biops9   grad_histo fecha_corte fecha_reporte_web
+717          718           5-nov-21         76001   cali  valle  ...     19-oct-21  carcinoma ductal      in-situ    8-abr-22          8-abr-22
+718          719          30-jun-21         76001   cali  valle  ...      4-jun-21  carcinoma ductal  infiltrante    8-abr-22          8-abr-22
+719          720          16-sep-21         76001   cali  valle  ...     13-sep-21  carcinoma ductal      in-situ    8-abr-22          8-abr-22
+720          721          15-dic-21         76001   cali  valle  ...      5-oct-21  carcinoma ductal  infiltrante    8-abr-22          8-abr-22
+721          722           3-dic-21         76001   cali  valle  ...     30-jul-21  carcinoma ductal      in-situ    8-abr-22          8-abr-22
+
+[5 rows x 18 columns]
+
+Resumen estadístico de columnas numéricas y categóricas:
+        codigo_sspm fecha_notificacion  cod_divipola ciudad   dpto  ...  fecha_res_bi        res_biops9   grad_histo fecha_corte fecha_reporte_web
+count    722.000000                722         722.0    722    722  ...           722               722          722         722               722
+unique          NaN                226           NaN      1      1  ...           263                 2            3           1                 1
+top             NaN          24-mar-21           NaN   cali  valle  ...     18-ago-21  carcinoma ductal  infiltrante    8-abr-22          8-abr-22
+freq            NaN                 11           NaN    722    722  ...            11               672          432         722               722
+mean     361.500000                NaN       76001.0    NaN    NaN  ...           NaN               NaN          NaN         NaN               NaN
+std      208.567735                NaN           0.0    NaN    NaN  ...           NaN               NaN          NaN         NaN               NaN
+min        1.000000                NaN       76001.0    NaN    NaN  ...           NaN               NaN          NaN         NaN               NaN
+25%      181.250000                NaN       76001.0    NaN    NaN  ...           NaN               NaN          NaN         NaN               NaN
+50%      361.500000                NaN       76001.0    NaN    NaN  ...           NaN               NaN          NaN         NaN               NaN
+75%      541.750000                NaN       76001.0    NaN    NaN  ...           NaN               NaN          NaN         NaN               NaN
+max      722.000000                NaN       76001.0    NaN    NaN  ...           NaN               NaN          NaN         NaN               NaN
+
+[11 rows x 18 columns]
+
+Alertas de calidad:
+
+
+
+================================================================================
+Archivo analizado: cancer_mama_valle_cauca_2018.csv
+Ruta completa: data\raw\cancer_mama_valle_cauca_2018.csv
+Dimensiones: Filas=1036, Columnas=16
+
+Columnas y tipos de datos:
+﻿caso_id                        int64
+año_notificacion                int64
+semana_epidemiologica           int64
+departamento                      str
+municipio                         str
+area_residencia                   str
+sexo                              str
+grupo_edad                        str
+pertenencia_etnica                str
+regimen_seguridad_social          str
+tipo_cancer_mama                  str
+estadio_clinico                   str
+oportunidad_diagnostico_dias    int64
+oportunidad_tratamiento_dias    int64
+tipo_tratamiento                  str
+condicion_final                   str
+dtype: object
+
+Datos faltantes por columna:
+Series([], dtype: int64)
+Total de valores faltantes: 0
+
+Cantidad de filas duplicadas: 0
+
+Primeros 5 registros:
+   ﻿caso_id  año_notificacion  semana_epidemiologica  ... oportunidad_tratamiento_dias                        tipo_tratamiento condicion_final
+0         1              2018                     33  ...                           14  Cirugía + Quimioterapia + Radioterapia            Vivo
+1         2              2018                     24  ...                           11  Cirugía + Quimioterapia + Radioterapia            Vivo
+2         3              2018                     44  ...                           38                      Solo Quimioterapia            Vivo
+3         4              2018                     11  ...                           68  Cirugía + Quimioterapia + Radioterapia            Vivo
+4         5              2018                     17  ...                          107  Cirugía + Quimioterapia + Radioterapia            Vivo
+
+[5 rows x 16 columns]
+
+Últimos 5 registros:
+      ﻿caso_id  año_notificacion  semana_epidemiologica  ... oportunidad_tratamiento_dias                        tipo_tratamiento condicion_final
+1031      1032              2018                     22  ...                           30                 Cirugía + Quimioterapia            Vivo
+1032      1033              2018                     16  ...                           89                            Solo Cirugía            Vivo
+1033      1034              2018                     41  ...                           63  Cirugía + Quimioterapia + Radioterapia            Vivo
+1034      1035              2018                     51  ...                           65                      Solo Quimioterapia            Vivo
+1035      1036              2018                     44  ...                           78            Quimioterapia + Radioterapia            Vivo
+
+[5 rows x 16 columns]
+
+Resumen estadístico de columnas numéricas y categóricas:
+           ﻿caso_id  año_notificacion  semana_epidemiologica  ... oportunidad_tratamiento_dias                        tipo_tratamiento condicion_final
+count   1036.000000            1036.0            1036.000000  ...                  1036.000000                                    1036            1036
+unique          NaN               NaN                    NaN  ...                          NaN                                       7               2
+top             NaN               NaN                    NaN  ...                          NaN  Cirugía + Quimioterapia + Radioterapia            Vivo
+freq            NaN               NaN                    NaN  ...                          NaN                                     350             980
+mean     518.500000            2018.0              26.748069  ...                    43.158301                                     NaN             NaN
+std      299.211742               0.0              15.071592  ...                    34.051368                                     NaN             NaN
+min        1.000000            2018.0               1.000000  ...                     4.000000                                     NaN             NaN
+25%      259.750000            2018.0              14.000000  ...                    21.000000                                     NaN             NaN
+50%      518.500000            2018.0              27.000000  ...                    33.500000                                     NaN             NaN
+75%      777.250000            2018.0              40.000000  ...                    54.000000                                     NaN             NaN
+max     1036.000000            2018.0              52.000000  ...                   309.000000                                     NaN             NaN
+
+[11 rows x 16 columns]
+
+Alertas de calidad:
+
+
+
+================================================================================
+Archivo analizado: Hospital.csv
+Ruta completa: data\raw\Hospital.csv
+Dimensiones: Filas=825, Columnas=150
+
+Columnas y tipos de datos:
+﻿var008      str
+var010       str
+var017       str
+var018       str
+var019       str
+           ...  
+var128     int64
+var129     int64
+var131       str
+var132     int64
+var134       str
+Length: 150, dtype: object
+
+Datos faltantes por columna:
+var010    738
+dtype: int64
+Total de valores faltantes: 738
+
+Cantidad de filas duplicadas: 4
+
+Primeros 5 registros:
+  ﻿var008 var010 var017      var018      var019      var020  var021  var022  ... var125 var126  var127 var128  var129      var131  var132      var134
+0       F    NaN   D043  2025-10-27  2025-09-16  2025-10-17      10      98  ...      7      8       1      2      10  1845-01-01      98  2025-01-01
+1       F      B   C119  2025-09-11  1800-01-01  2025-09-05      10      98  ...      2     97       1      2       1  1845-01-01      98  2025-01-01
+2       M    NaN   C710  2025-03-07  1800-01-01  1800-01-01       5      98  ...      3     97       1      2       1  1845-01-01      98  2025-01-01
+3       F    NaN   C56X  2025-04-29  2025-02-09  2025-04-14       5      98  ...      8      5       1      2       3  1845-01-01      98  2025-01-01
+4       F    NaN   C20X  2023-09-11  2023-09-07  1800-01-01      10      98  ...      8      5       1      3       3  1845-01-01      98  2025-01-01
+
+[5 rows x 150 columns]
+
+Últimos 5 registros:
+    ﻿var008 var010 var017      var018      var019      var020  var021  ...  var126 var127 var128  var129      var131  var132      var134
+820       M    NaN   C445  2025-10-24  2025-09-10  2025-10-17      10  ...       8      1     12      10  1845-01-01      98  2025-01-01
+821       M    NaN   C440  2025-07-31  2025-07-24  2025-07-26      10  ...      97      1     12       1  1845-01-01      98  2025-01-01
+822       M    NaN   D043  2025-07-31  2025-07-24  2025-07-26      10  ...       5      1     12       3  1845-01-01      98  2025-01-01
+823       M    NaN   C61X  2019-03-13  1800-01-01  1800-01-01      10  ...       7      1      3       3  1845-01-01      98  2025-01-01
+824       M    NaN   C61X  2023-05-18  1800-01-01  1800-01-01      10  ...       5      1      3       3  1845-01-01      98  2025-01-01
+
+[5 rows x 150 columns]
+
+Resumen estadístico de columnas numéricas y categóricas:
+       ﻿var008 var010 var017      var018      var019      var020  ...      var127      var128      var129      var131      var132      var134
+count      825     87    825         825         825         825  ...  825.000000  825.000000  825.000000         825  825.000000         825
+unique       2      6    145         425         280         247  ...         NaN         NaN         NaN          35         NaN           1
+top          F      S   C443  2025-09-03  1800-01-01  1800-01-01  ...         NaN         NaN         NaN  1845-01-01         NaN  2025-01-01
+freq       518     44    112           9         373         377  ...         NaN         NaN         NaN         789         NaN         825
+mean       NaN    NaN    NaN         NaN         NaN         NaN  ...    1.043636    3.138182    4.838788         NaN   93.772121         NaN
+std        NaN    NaN    NaN         NaN         NaN         NaN  ...    0.204409    3.099923    3.754214         NaN   19.805031         NaN
+min        NaN    NaN    NaN         NaN         NaN         NaN  ...    1.000000    0.000000    1.000000         NaN    1.000000         NaN
+25%        NaN    NaN    NaN         NaN         NaN         NaN  ...    1.000000    2.000000    3.000000         NaN   98.000000         NaN
+50%        NaN    NaN    NaN         NaN         NaN         NaN  ...    1.000000    2.000000    3.000000         NaN   98.000000         NaN
+75%        NaN    NaN    NaN         NaN         NaN         NaN  ...    1.000000    3.000000   10.000000         NaN   98.000000         NaN
+max        NaN    NaN    NaN         NaN         NaN         NaN  ...    2.000000   15.000000   12.000000         NaN   98.000000         NaN
+
+[11 rows x 150 columns]
+
+Alertas de calidad:
+⚠ Columna 'var010' tiene 738 valores faltantes (>20%)
+⚠ Hay 4 filas duplicadas en el archivo
+
+
+
+================================================================================
+Archivo analizado: reporte_extract_consolidado.txt
+Ruta completa: data\raw\reporte_extract_consolidado.txt
+Dimensiones: Filas=435, Columnas=81
+
+Columnas y tipos de datos:
+Unnamed: 0         str
+Unnamed: 1         str
+Unnamed: 2     float64
+Unnamed: 3     float64
+Unnamed: 4     float64
+                ...   
+Unnamed: 76    float64
+Unnamed: 77    float64
+Unnamed: 78    float64
+Unnamed: 79    float64
+Unnamed: 80    float64
+Length: 81, dtype: object
+
+Datos faltantes por columna:
+Unnamed: 0       5
+Unnamed: 1     429
+Unnamed: 2     429
+Unnamed: 3     435
+Unnamed: 4     435
+              ... 
+Unnamed: 76    435
+Unnamed: 77    435
+Unnamed: 78    435
+Unnamed: 79    435
+Unnamed: 80    435
+Length: 81, dtype: int64
+Total de valores faltantes: 34793
+
+Cantidad de filas duplicadas: 70
+
+Primeros 5 registros:
+                                          Unnamed: 0     Unnamed: 1  Unnamed: 2  Unnamed: 3  ...  Unnamed: 77  Unnamed: 78  Unnamed: 79  Unnamed: 80
+0  Archivo analizado: 42.-cancer-de-mama-datos-ab...            NaN         NaN         NaN  ...          NaN          NaN          NaN          NaN
+1  Ruta completa: data\raw\42.-cancer-de-mama-dat...            NaN         NaN         NaN  ...          NaN          NaN          NaN          NaN
+2                                 Dimensiones: Filas  946, Columnas        17.0         NaN  ...          NaN          NaN          NaN          NaN
+3                         Columnas y tipos de datos:            NaN         NaN         NaN  ...          NaN          NaN          NaN          NaN
+4                         codigo_sspm          int64            NaN         NaN         NaN  ...          NaN          NaN          NaN          NaN
+
+[5 rows x 81 columns]
+
+Últimos 5 registros:
+                                            Unnamed: 0 Unnamed: 1  Unnamed: 2  Unnamed: 3  ...  Unnamed: 77  Unnamed: 78  Unnamed: 79  Unnamed: 80
+430  ⚠ Columna 'Unnamed: 77' tiene 435 valores falt...        NaN         NaN         NaN  ...          NaN          NaN          NaN          NaN
+431  ⚠ Columna 'Unnamed: 78' tiene 435 valores falt...        NaN         NaN         NaN  ...          NaN          NaN          NaN          NaN
+432  ⚠ Columna 'Unnamed: 79' tiene 435 valores falt...        NaN         NaN         NaN  ...          NaN          NaN          NaN          NaN
+433  ⚠ Columna 'Unnamed: 80' tiene 435 valores falt...        NaN         NaN         NaN  ...          NaN          NaN          NaN          NaN
+434            ⚠ Hay 70 filas duplicadas en el archivo        NaN         NaN         NaN  ...          NaN          NaN          NaN          NaN
+
+[5 rows x 81 columns]
+
+Resumen estadístico de columnas numéricas y categóricas:
+                Unnamed: 0     Unnamed: 1  Unnamed: 2  Unnamed: 3  Unnamed: 4  ...  Unnamed: 76  Unnamed: 77  Unnamed: 78  Unnamed: 79  Unnamed: 80
+count                  430              6    6.000000         0.0         0.0  ...          0.0          0.0          0.0          0.0          0.0
+unique                 359              6         NaN         NaN         NaN  ...          NaN          NaN          NaN          NaN          NaN
+top     Dimensiones: Filas  946, Columnas         NaN         NaN         NaN  ...          NaN          NaN          NaN          NaN          NaN
+freq                     6              1         NaN         NaN         NaN  ...          NaN          NaN          NaN          NaN          NaN
+mean                   NaN            NaN   49.833333         NaN         NaN  ...          NaN          NaN          NaN          NaN          NaN
+std                    NaN            NaN   55.351302         NaN         NaN  ...          NaN          NaN          NaN          NaN          NaN
+min                    NaN            NaN   16.000000         NaN         NaN  ...          NaN          NaN          NaN          NaN          NaN
+25%                    NaN            NaN   17.000000         NaN         NaN  ...          NaN          NaN          NaN          NaN          NaN
+50%                    NaN            NaN   17.500000         NaN         NaN  ...          NaN          NaN          NaN          NaN          NaN
+75%                    NaN            NaN   65.250000         NaN         NaN  ...          NaN          NaN          NaN          NaN          NaN
+max                    NaN            NaN  150.000000         NaN         NaN  ...          NaN          NaN          NaN          NaN          NaN
+
+[11 rows x 81 columns]
+
+Alertas de calidad:
+⚠ Columna 'Unnamed: 1' tiene 429 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 2' tiene 429 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 3' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 4' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 5' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 6' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 7' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 8' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 9' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 10' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 11' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 12' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 13' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 14' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 15' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 16' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 17' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 18' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 19' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 20' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 21' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 22' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 23' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 24' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 25' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 26' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 27' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 28' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 29' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 30' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 31' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 32' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 33' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 34' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 35' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 36' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 37' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 38' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 39' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 40' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 41' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 42' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 43' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 44' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 45' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 46' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 47' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 48' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 49' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 50' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 51' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 52' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 53' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 54' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 55' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 56' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 57' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 58' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 59' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 60' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 61' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 62' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 63' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 64' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 65' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 66' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 67' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 68' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 69' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 70' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 71' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 72' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 73' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 74' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 75' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 76' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 77' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 78' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 79' tiene 435 valores faltantes (>20%)
+⚠ Columna 'Unnamed: 80' tiene 435 valores faltantes (>20%)
+⚠ Hay 70 filas duplicadas en el archivo
+
+
